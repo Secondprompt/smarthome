@@ -1,0 +1,16 @@
+{
+  "name": "nodered",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start":"node node_modules/node-red/red.js"
+  },
+  "author": "rengga",
+  "license": "ISC",
+  "dependencies": {
+    "node-red": "^0.18.7",
+    "node-red-dashboard": "^2.9.6"
+  }
+}
